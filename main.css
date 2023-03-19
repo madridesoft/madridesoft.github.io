@@ -6,7 +6,7 @@
 }
 h2{
   font-size: 30px;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-top: 5px;
   font-family: "Gill Sans Extrabold", sans-serif;
 }
@@ -14,88 +14,9 @@ span{
   color: orange;
 }
 h2{
-  color: #fff;
+  color: #0ff000;
 }
-ul{
-  width: 95%;
-  list-style: none;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 2px 0;
-  background: black;
-  display: flex;
-  box-shadow: 3px 3px 5px;
-}
-ul li{
-  list-style: none;
-  display: block;
-  border-right: 1px solid rgba(0,0,0,0.2);
-}
-ul li{
-  list-style: none;
-  text-align: center;
-  display: block;
-  border-right: 1px solid rgba(0,0,0,0.2);
-}
-ul li:last-child{
-  border-right: none;
-}
-ul li a{
-  text-decoration: none;
-  padding: 0 50px;
-  display: block;
-}
-ul li a .icon{
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  overflow: hidden;
-  margin: 0 auto 10px;
-}
-ul li a .icon .fa{
-  width: 100%;
-  height: 100%;
-  line-height: 40px;
-  font-size: 34px;
-  transition: 0.5s;
-  color: #00ff00;
-}
-ul li a .icon .fa:last-child{
-  color: orange;
-}
-ul li a:hover .icon .fa{
-  transform: translateY(-100%);
-}
-ul li a .name{
-  position: relative;
-  height: 20px;
-  width: 100%;
-  display: block;
-  overflow: hidden;
-}
-ul li a .name span{
-  display: block;
-  position: relative;
-  color: #fff;
-  font-size: 18px;
-  line-height: 20px;
-  transition: 0.5s;
-}
-ul li a .name span:before{
-  content: attr(data-text);
-  position: absolute;
-  top: -100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: violet;
-}
-ul li a:hover .name span{
-  transform: translateY(20px);
-}
-
 body{
-  margin-top:5%;
   font-family: sans-serif;
 }
 body p{
