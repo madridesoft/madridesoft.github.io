@@ -37,7 +37,6 @@ body p a{
 .top-container img{
   width: 300px;
   height: 200px;
-  float: left;
   object-fit: cover;
   shape-outside: margin-box;
   margin: 0 10px 5px 0;
