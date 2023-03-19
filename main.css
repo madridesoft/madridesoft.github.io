@@ -151,7 +151,7 @@ body p a{
 
 footer{
   background: black;
-  height: 150px;
+  height: 180px;
   width: 95%;
   margin-left: 30px;
   padding: 0;
@@ -159,7 +159,7 @@ footer{
 }
 footer h1{
   padding-left: 30px;
-  margin-top: 5px;
+  padding-top: 5px;
   margin-bottom: 5px;
 }
 footer p a{
