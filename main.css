@@ -17,10 +17,7 @@ h2{
   color: #fff;
 }
 ul{
-  position: absolute;
-  top: 50%;
   width: 95%;
-  left: 50%;
   list-style: none;
   transform: translate(-50%, -50%);
   margin: 0;
