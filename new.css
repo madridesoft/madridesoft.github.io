@@ -96,26 +96,12 @@ ul li a .name span:before{
 ul li a:hover .name span{
   transform: translateY(20px);
 }
-section{
-  margin-top: 100px;
-  position: static;
-  background: orange;
-  height: 50px;
-  width: 95%;
-  display: flex;
-  box-shadow: 3px 3px 5px black;
-  margin-left: 30px;
-}
-section a{
-  padding: 10px;
-  text-decoration: none;
-  color: #fff;
-}
 body{
   font-family: sans-serif;
+  padding-top: 100px;
 }
 .container{
-  width: 95%%;
+  width: 100%;
   margin: 2px;
   padding: 30px;
   display: inline-grid;
@@ -123,23 +109,35 @@ body{
 .top-container img{
   width: 300px;
   height: 200px;
+  object-fit: cover;
   float: left;
+  shape-outside: margin-box;
+  margin: 0 10px 5px 0;
+}
+.top-container iframe{
   object-fit: cover;
   shape-outside: margin-box;
   margin: 0 10px 5px 0;
 }
+h3 span{
+  color: orange;
+}
 footer{
   background: black;
-  height: 180px;
-  width: 95%;
-  margin-left: 30px;
+  height: 150px;
+  width: 100%;
+  margin: 0;
   padding: 0;
   position: relative;
+  padding: 2px 0;
 }
 footer h1{
-  padding-left: 30px;
-  padding-top: 5px;
+  margin-top: 5px;
   margin-bottom: 5px;
+  padding-left: 20px;
+}
+footer p{
+  padding-left: 20px;
 }
 footer p a{
   text-decoration: none;
@@ -154,8 +152,8 @@ footer ol{
 footer ol a{
   list-style: none;
   color: orange;
-  padding-left: 30px;
   text-decoration: none;
+  padding: 20px;
 }
 h1{
   color: #fff;
@@ -166,7 +164,6 @@ h1 span{
 }
 footer p{
   color: #fff;
-  padding-left: 30px;
 }
 p span{
   color: orange;
